@@ -1,3 +1,5 @@
+## 安装runner
+
 1，安装gitlab runner
 1，curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-ci-multi-runner/script.deb.sh -o /tmp/gl-runner.deb.sh
 
@@ -6,7 +8,6 @@
 
 3，bash /tmp/gl-runner.deb.sh
 
-## 安装runner
 4，sudo apt-get install gitlab-runner
 
 ## 注册runner
